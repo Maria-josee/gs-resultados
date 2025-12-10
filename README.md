@@ -73,14 +73,14 @@ Este repositorio **no incluye**:
 El sitio está construido con **Astro** y el framework de documentación **Starlight**.
 
 Para el desarrollo local:
-
+```bash
 npm install  # Instala las dependencias del proyecto
 npm run dev  # Inicia el servidor de desarrollo en localhost
-
+```
 Para generar el build de producción:
-
+```bash
 npm run build
-
+```
 Documentación oficial:
 * [https://astro.build](https://astro.build)
 * [https://starlight.astro.build](https://starlight.astro.build)
