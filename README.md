@@ -30,7 +30,7 @@ Contiene el código fuente de la página web utilizada para visualizar y documen
 ├── astro.config.mjs
 ├── package.json
 └── tsconfig.json
-```text
+```
 
 ⚠️ Los archivos dentro de public/visores/ **no están incluidos en GitHub** debido a su tamaño. Cada usuario debe generarlos localmente siguiendo las instrucciones a continuación.
 
