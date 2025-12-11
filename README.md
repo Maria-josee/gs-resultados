@@ -46,9 +46,8 @@ Sigue estos pasos para generar los archivos HTML que serán servidos por la web:
 4. Supersplat generará una carpeta (o archivo .html) con los datos del visor.
 5. Mover la carpeta/archivo generado a la ubicación:
 
-> public/visores/nombre_escena.html
+`public/visores/nombre_escena.html`
 
-*Nota: Los visores no se incluyen en el repo por su tamaño (100MB+).*
 
 ---
 
