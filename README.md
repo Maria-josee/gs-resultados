@@ -132,4 +132,4 @@ Volver a subir la carpeta `dist/` actualizada a Netlify.
 Este flujo permite volver a desplegar el sitio fácilmente en cualquier momento, siguiendo el método usado originalmente.
 
 Página inicial:
-* [https://gs-resultados.netlify.app/reconstrucciones/araucaria/](https://gs-resultados.netlify.app/reconstrucciones/araucaria/)
+* [https://gs-resultados.netlify.app](https://gs-resultados.netlify.app)
