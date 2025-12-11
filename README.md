@@ -84,3 +84,48 @@ npm run build
 Documentación oficial:
 * [https://astro.build](https://astro.build)
 * [https://starlight.astro.build](https://starlight.astro.build)
+
+## 🌐 Sobre el despliegue en Netlify
+
+El despliegue no se realiza directamente desde GitHub porque el proyecto incluye visores 3D generados por Supersplat, los cuales pueden superar los 100 MB.
+GitHub no permite almacenar archivos de ese tamaño en repositorios estándar, lo que impide usar un flujo automático de deploy (GitHub → Netlify).
+
+Por esta razón, el sitio se publica mediante carga manual de la carpeta dist/ en Netlify.
+
+###  ✔ Cómo se realiza el despliegue
+
+Ejecutar el build mencionado desde la carpeta raiz del proyecto:
+
+```bash
+npm install
+npm run build
+```
+
+Esto genera la carpeta:
+```text
+dist/
+```
+
+En Netlify, seleccionar "Deploy site" → "Upload folder"
+y subir la carpeta `dist/` completa.
+
+Netlify publicará el sitio inmediatamente.
+
+###  Sobre el repositorio
+
+La carpeta `dist/` no se sube al repositorio, ya que es un artefacto generado.
+
+
+###  Cuando se agregan nuevos experimentos
+
+Para actualizar el sitio se debe:
+
+Ejecutar nuevamente:
+
+```bash
+npm run build
+```
+
+Volver a subir la carpeta `dist/` actualizada a Netlify.
+
+Este flujo permite volver a desplegar el sitio fácilmente en cualquier momento, siguiendo el método usado originalmente.
